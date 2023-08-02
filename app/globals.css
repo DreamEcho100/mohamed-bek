@@ -53,3 +53,9 @@ body {
 		)
 		rgb(var(--background-start-rgb));
 }
+
+@layer components {
+	.text-align-initial {
+		text-align: initial;
+	}
+}
