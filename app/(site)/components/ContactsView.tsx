@@ -14,7 +14,7 @@ export default function ContactsView() {
 		return (
 			<ul
 				className={clsx(
-					'flex flex-wrap items-center text-3xl gap-4 mt-1 mx-auto w-fit',
+					'flex flex-wrap items-center text-xl xl-2-sm:text-3xl gap-4 mt-1 mx-auto w-fit',
 					'lg:mx-0'
 				)}
 			>

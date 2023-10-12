@@ -15,13 +15,15 @@ export default function Home() {
 				</div>
 			</header>
 			<div className='p-10 bg-slate-950 lg:bg-slate-900 w-full' />
-			<main className='flex flex-col bg-slate-900 text-white flex-grow w-full lg:px-20 lg:pb-20'>
-				<section className='flex bg-slate-950 flex-grow lg:rounded-3xl'>
+			<main className='flex-grow flex flex-col'>
+				<section className='flex flex-col bg-slate-900 text-white flex-grow w-full lg:px-20 lg:pb-20 lg:pt-2'>
 					<div
 						className={clsx(
-							'pt-5 pb-20 px-5 sm:px-20 w-full max-w-screen-2xl mx-auto flex-grow',
-							'flex flex-col items-center justify-center gap-20',
-							'lg:flex-row lg:pt-20 lg:justify-between'
+							'flex bg-slate-950 flex-grow lg:rounded-3xl',
+							'py-4 px-5 sm:px-20 w-full max-w-screen-2xl mx-auto flex-grow',
+							'flex flex-col items-center xl-2-sm:justify-center',
+							'gap-12 sm:gap-20',
+							'lg:flex-row lg:justify-between'
 						)}
 					>
 						<article
@@ -30,8 +32,12 @@ export default function Home() {
 								'lg:text-align-initial'
 							)}
 						>
-							<h1 className='text-6xl'>EST/SAT/ACT Centre</h1>
-							<p className='text-4xl'>Mr. Mohamed Abdelkareem</p>
+							<h1 className='text-5xl xl-2-sm:text-6xl'>
+								EST&shy;/&shy;SAT&shy;/&shy;ACT Centre
+							</h1>
+							<p className='text-3xl xl-2-sm:text-4xl'>
+								Mr. Mohamed Abdelkareem
+							</p>
 							{/* <div className='flex flex-col gap-2 text-lg'>
 								<p>
 									<span className='block'>
@@ -53,7 +59,7 @@ export default function Home() {
 							</div> */}
 							<ContactsView />
 						</article>
-						<figure className='max-w-full sm:w-96 lg:max-w-screen-sm lg:min-w-[20rem] lg:w-2/5'>
+						<figure className='max-w-[90%] sm:max-w-full sm:w-96 lg:max-w-screen-sm lg:min-w-[20rem] lg:w-2/5'>
 							<Image
 								// src='https://api.dicebear.com/6.x/lorelei/svg?seed=mohamed-bek'
 								src='/images/mohamed-bek.jpg'
@@ -61,7 +67,7 @@ export default function Home() {
 								alt='mohamed-bek'
 								width={800}
 								height={800}
-								className='animate-circlerReveal rounded-full'
+								className='animate-circlerReveal rounded-lg xl-2-sm:rounded-full'
 								// style={{
 								// 	clipPath: 'circle(25% at 56% 27%)',
 								// }}
