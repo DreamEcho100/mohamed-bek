@@ -63,7 +63,7 @@ export default function ContactsView() {
 		>
 			{[
 				{
-					href: 'tel:+201120841980',
+					href: 'https://wa.me/201120841980',
 					title: 'whatsapp',
 					icon: <BsWhatsapp className='text-teal-500' />
 				},

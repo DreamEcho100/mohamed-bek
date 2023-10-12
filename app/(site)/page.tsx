@@ -30,9 +30,9 @@ export default function Home() {
 								'lg:text-align-initial'
 							)}
 						>
-							<h1 className='text-6xl'>Nile Sons EST Centre</h1>
+							<h1 className='text-6xl'>EST/SAT/ACT Centre</h1>
 							<p className='text-4xl'>Mr. Mohamed Abdelkareem</p>
-							<div className='flex flex-col gap-2 text-lg'>
+							{/* <div className='flex flex-col gap-2 text-lg'>
 								<p>
 									<span className='block'>
 										<Tooltip title='A computer-based test that measures the readiness of students to enter university, and assesses the level of students in Reading, Writing and Math.'>
@@ -50,7 +50,7 @@ export default function Home() {
 									<span className='block'>Reading, Writing and Language</span>
 									<span className='block'>Grades 9, 10, and 11</span>
 								</p>
-							</div>
+							</div> */}
 							<ContactsView />
 						</article>
 						<figure className='max-w-full sm:w-96 lg:max-w-screen-sm lg:min-w-[20rem] lg:w-2/5'>
